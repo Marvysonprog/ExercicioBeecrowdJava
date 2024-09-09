@@ -18,7 +18,7 @@ import java.util.Scanner;
 
 public class Media2 {
     public static void main(String[] args) {
-        
+         
         Scanner teclado = new Scanner(System.in);
         double A, B, C, media;
         double pesoA = 2;
@@ -32,12 +32,13 @@ public class Media2 {
         C = teclado.nextDouble();
 
         somaA = A * 2; 
-        somaB = B * 3;
+        somaB = B * 3; 
         somaC = C * 5;
 
         media = (somaA + somaB + somaC) / 10; // Esta dividindo por 10 porque nesse caso é dividido pela soma dos pesos
 
-        System.out.printf("MEDIA = %.1f\n", media);
+        System.out.printf("MEDIA  = %.1f\n", media);
 
     }
 }
+
